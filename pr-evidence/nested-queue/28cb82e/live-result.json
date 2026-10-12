@@ -1,0 +1,89 @@
+{
+  "fixture": {
+    "parent": "ses_ecfcc3cc2ffeXmoeH7issqgUlX",
+    "child": "ses_ecfcc3bfcffeAAvWqpcZW5Ih3I",
+    "grandchild": "ses_ecfcc3b8cffeovqOAMgwqcaMv1"
+  },
+  "baseline": "b66b3bb",
+  "observations": [
+    {
+      "phase": "before-nested-running",
+      "queue": [
+        "B - second queued follow-up"
+      ],
+      "active": {
+        "ses_ecfcc3b8cffeovqOAMgwqcaMv1": {
+          "type": "running"
+        },
+        "ses_ecfcc3cc2ffeXmoeH7issqgUlX": {
+          "type": "running"
+        }
+      },
+      "admissions": [
+        {
+          "path": "/api/session/ses_ecfcc3cc2ffeXmoeH7issqgUlX/prompt",
+          "body": {
+            "text": "A - first queued follow-up"
+          }
+        }
+      ],
+      "visible": "New session\nChats\nNested queue validation\nNested queue regression\n5s\nNested queue regression\n\nNested queue regression\n\n4:01 PM\nPreparing\nB - second queued follow-up\nedit\nsend\nPlan, build, or ask. @ to mention, $ for skills, / for commands\n\nBig Pickle\nBuild\nSession\nProjectNested queue validation\nAuto-discover dev server\nTurn stats\nSubagents\n1\nIdle intermediate subagent\nContext sources\n19 skills\nOpenCode update\nVersion 2.0.27 available. Update OpenCode the way you installed it, then restart OpenChamber.\nDismiss"
+    },
+    {
+      "phase": "after-nested-running",
+      "queue": [
+        "A - first queued follow-up",
+        "B - second queued follow-up"
+      ],
+      "active": {
+        "ses_ecfcc3b8cffeovqOAMgwqcaMv1": {
+          "type": "running"
+        }
+      },
+      "admissions": [],
+      "visible": "New session\nChats\nNested queue validation\nNested queue regression\n12s\nNested queue regression\n\nNested queue regression\n\n4:01 PM\nOpenCode did not start a reply to this message.\nOpenCode reported no details. The status report lists recent errors.\nShow OpenCode status\nQueued messages 2\nA - first queued follow-up\nedit\nsend\nB - second queued follow-up\nedit\nsend\nPlan, build, or ask. @ to mention, $ for skills, / for commands\n\nBig Pickle\nBuild\nSession\nProjectNested queue validation\nAuto-discover dev server\nTurn stats\nSubagents\n1\nIdle intermediate subagent\nContext sources\n19 skills\nOpenCode update\nVersion 2.0.27 available. Update OpenCode the way you installed it, then restart OpenChamber.\nDismiss"
+    },
+    {
+      "phase": "after-delivered-1",
+      "queue": [
+        "B - second queued follow-up"
+      ],
+      "active": {
+        "ses_ecfcc3cc2ffeXmoeH7issqgUlX": {
+          "type": "running"
+        }
+      },
+      "admissions": [
+        {
+          "path": "/api/session/ses_ecfcc3cc2ffeXmoeH7issqgUlX/prompt",
+          "body": {
+            "text": "A - first queued follow-up"
+          }
+        }
+      ]
+    },
+    {
+      "phase": "after-delivered-2",
+      "queue": [],
+      "active": {
+        "ses_ecfcc3cc2ffeXmoeH7issqgUlX": {
+          "type": "running"
+        }
+      },
+      "admissions": [
+        {
+          "path": "/api/session/ses_ecfcc3cc2ffeXmoeH7issqgUlX/prompt",
+          "body": {
+            "text": "A - first queued follow-up"
+          }
+        },
+        {
+          "path": "/api/session/ses_ecfcc3cc2ffeXmoeH7issqgUlX/prompt",
+          "body": {
+            "text": "B - second queued follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}
