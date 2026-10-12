@@ -1,0 +1,10 @@
+{
+  "queue": [
+    "A - first queued message",
+    "B - second queued message",
+    "C - third queued message",
+    "D - follow-up through Enter",
+    "E - follow-up through Send"
+  ],
+  "admissions": []
+}
