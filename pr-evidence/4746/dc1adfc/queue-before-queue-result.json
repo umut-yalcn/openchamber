@@ -1,0 +1,9 @@
+{
+  "queue": [],
+  "admissions": [
+    {
+      "path": "/api/session/ses_ed0240a9fffeTebfjMYw3RchRi/prompt",
+      "text": "A - first queued message\n\nB - second queued message\n\nC - third queued message\n\nD - follow-up through Enter"
+    }
+  ]
+}
